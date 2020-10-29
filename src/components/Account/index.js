@@ -16,7 +16,7 @@ const Account = () => {
       </Styled.BalanceAvailable>
 
       <Styled.Value>
-        <Text>R$ 0,00</Text>
+        <Text>R$ 50.000,00</Text>
       </Styled.Value>
     </Styled.Container>
   )

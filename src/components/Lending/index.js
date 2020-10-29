@@ -1,13 +1,13 @@
 import React from 'react'
 import * as Styled from './styled'
-import { AntDesign } from '@expo/vector-icons'
 import { Text } from 'react-native'
+import { Fontisto } from '@expo/vector-icons'
 
 const Lending = () => {
   return (
     <Styled.Container>
       <Styled.Header>
-        <AntDesign name="wallet" size={24} color="#707070" />
+        <Fontisto name="wallet" size={24} color="#707070" />
         <Text style={{ marginLeft: 15, color: '#707070' }}>Empréstimo</Text>
       </Styled.Header>
 
