@@ -2,6 +2,7 @@ import * as React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import Home from '../screens/home'
+import CreditCard from '../screens/Creditcard'
 
 const Stack = createStackNavigator()
 
@@ -12,6 +13,7 @@ const Navigation = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen options={defaultOptions} name="Home" component={Home} />
+        <Stack.Screen options={defaultOptions} name="Resume" component={CreditCard} />
       </Stack.Navigator>
     </NavigationContainer>
   )
