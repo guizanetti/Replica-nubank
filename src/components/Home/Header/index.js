@@ -14,7 +14,7 @@ const Header = () => {
         </Styled.EyeIcon>
         <Styled.SettingIcon>
           <Styled.Shadow>
-            <SimpleLineIcons name="settings" size={26} color="#fff" />
+            <SimpleLineIcons name="settings" size={26} color="#ffffff" />
           </Styled.Shadow>
         </Styled.SettingIcon>
       </Styled.Header>

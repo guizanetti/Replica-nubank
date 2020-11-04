@@ -14,8 +14,8 @@ export const Header = styled.View`
 `
 
 export const Shadow = styled.View`
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   border-radius: 50px;
   background-color: #8b2dbf;
   align-items: center;

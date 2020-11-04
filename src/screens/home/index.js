@@ -20,8 +20,8 @@ import CreditCard from '../../components/Home/CreditCard'
 import Account from '../../components/Home/Account'
 import Lending from '../../components/Home/Lending'
 import Rewards from '../../components/Home/Rewards'
-import { ScrollView } from 'react-native-gesture-handler'
 import Tab from '../../components/Tab'
+import { ScrollView } from 'react-native-gesture-handler'
 
 const Home = () => {
   const tabs = [

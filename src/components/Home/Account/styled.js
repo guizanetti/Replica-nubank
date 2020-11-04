@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import { getPercentageSizeWidth } from '../../../utils'
 
-export const Container = styled.TouchableOpacity`
-  width: ${getPercentageSizeWidth(93)};
+export const Container = styled.Pressable`
+  width: ${getPercentageSizeWidth(93)}px;
   height: 145px;
   border-radius: 3px;
   padding: 20px;

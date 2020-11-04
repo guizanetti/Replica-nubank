@@ -1,6 +1,5 @@
 import React from 'react'
 import * as Styled from './styled'
-import { Text } from 'react-native'
 import { Fontisto } from '@expo/vector-icons'
 
 const Lending = () => {

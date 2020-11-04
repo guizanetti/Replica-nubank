@@ -15,9 +15,21 @@ export const Container = styled.TouchableOpacity`
     css`
       margin: 0;
     `}
+
+  ${({ resume }) =>
+    resume &&
+    css`
+      background-color: #fff;
+      border: 1px solid #cccccc;
+    `}
 `
 
 export const Text = styled.Text`
   font-size: 14px;
   color: #fff;
+  ${({ resume }) =>
+    resume &&
+    css`
+      color: #cccccc;
+    `}
 `

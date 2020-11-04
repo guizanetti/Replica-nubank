@@ -7,7 +7,7 @@ const CreditCard = () => {
   const { navigate } = useNavigation()
 
   return (
-    <Styled.Container onPress={() => navigate('Resume')}>
+    <Styled.Container onPress={() => navigate('ResumeCredit')}>
       <Styled.Header>
         <Feather name="credit-card" size={24} color="#707070" />
         <Styled.CreditCard>Cartão de Crédito</Styled.CreditCard>

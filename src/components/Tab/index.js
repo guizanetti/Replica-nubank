@@ -1,12 +1,11 @@
 import React from 'react'
-import { Image } from 'react-native'
 import * as Styled from './styled'
 
-const Tab = ({ name, icon: Icon, onPress, first }) => {
+const Tab = ({ name, icon: Icon, onPress, first, resume }) => {
   return (
-    <Styled.Container first={first} onPress={onPress}>
+    <Styled.Container resume={resume} first={first} onPress={onPress}>
       {Icon && <Icon />}
-      <Styled.Text>{name}</Styled.Text>
+      <Styled.Text resume={resume}>{name}</Styled.Text>
     </Styled.Container>
   )
 }

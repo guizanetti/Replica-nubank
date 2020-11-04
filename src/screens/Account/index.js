@@ -1,6 +1,6 @@
 import React from 'react'
 import * as Styled from './styled'
-import ResumeCrediCard from '../../components/Resume/ResumeCrediCard'
+import ResumeAccount from '../../components/Resume/ResumeAccount'
 
 import {
   MaterialCommunityIcons,
@@ -13,7 +13,7 @@ import {
 import { ScrollView } from 'react-native-gesture-handler'
 import Tab from '../../components/Tab'
 
-const CreditCard = () => {
+const Account = () => {
   const tabs = [
     {
       name: 'Pagar',
@@ -45,7 +45,7 @@ const CreditCard = () => {
 
   return (
     <Styled.Container>
-      <ResumeCrediCard />
+      <ResumeAccount />
       <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
         <Styled.Footer>
           {tabs.map((item, index) => (
@@ -57,4 +57,4 @@ const CreditCard = () => {
   )
 }
 
-export default CreditCard
+export default Account
